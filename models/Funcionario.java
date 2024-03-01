@@ -9,7 +9,7 @@ public class Funcionario{
     protected char sexo;
     protected String login;
     protected String senha;
-    protected status String;
+    protected String status;
 
     public Funcionario(String nome, String cpf, Date dataNasc, String email, String telefone, char sexo, String login, String senha, String status){
         this.nome = nome;
@@ -87,11 +87,11 @@ public class Funcionario{
         this.senha = senha;
     }
 
-    public status getString() {
-        return String;
+    public String getStatus() {
+        return status;
     }
 
-    public void setString(status string) {
-        String = string;
+    public void setStatus(String status) {
+        this.status = status;
     }
 }
