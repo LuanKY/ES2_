@@ -1,5 +1,6 @@
 import java.util.Date;
 
+// Classe responsável pela lógica de negócios relacionada à entidade funcionário
 public class Funcionario{
     protected String nome;
     protected String cpf;
@@ -23,74 +24,92 @@ public class Funcionario{
         this.status = status;
     }
 
+    // Retorna o nome do funcionário
     public String getNome() {
         return nome;
     }
 
+    // Define o nome do funcionário
     public void setNome(String nome) {
         this.nome = nome;
     }
 
+    // Retorna a data de nascimento do funcionário
     public Date getDataNasc() {
         return dataNasc;
     }
 
+    // Define a data de nascimento do funcionário
     public void setDataNasc(Date dataNasc) {
         this.dataNasc = dataNasc;
     }
 
+    // Retorna o CPF do funcionário
     public String getCpf() {
         return cpf;
     }
 
+    // Define o CPF do funcionário
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
+    // Retorna o e-mail do funcionário
     public String getEmail() {
         return email;
     }
 
+    // Define o e-mail do funcionário
     public void setEmail(String email) {
         this.email = email;
     }
 
+    // Retorna o telefone do funcionário
     public String getTelefone() {
         return telefone;
     }
 
+    // Define o telefone do funcionário
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
+    // Retorna o sexo do funcionário
     public char getSexo() {
         return sexo;
     }
 
+    // Define o sexo do funcionário
     public void setSexo(char sexo) {
         this.sexo = sexo;
     }
 
+    // Retorna o login do funcionário
     public String getLogin() {
         return login;
     }
 
+    // Define o login do funcionário
     public void setLogin(String login) {
         this.login = login;
     }
 
+    // Retorna a senha do funcionário
     public String getSenha() {
         return senha;
     }
 
+    // Define a senha do funcionário
     public void setSenha(String senha) {
         this.senha = senha;
     }
 
+    // Retorna o status do funcionário
     public String getStatus() {
         return status;
     }
 
+    // Define o status do funcionário
     public void setStatus(String status) {
         this.status = status;
     }
