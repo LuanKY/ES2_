@@ -95,4 +95,9 @@ public class ControleFuncionario {
     public void setFuncionarioStatus(String status) {
         entidade.setStatus(status);
     }
+
+    // Métodos para obter e definir o endereço do funcionário
+    public Endereco getFuncionarioEndereco(){ return entidade.getEndereco(); }
+
+    public void setEntidadeEndereco(Endereco endereco){ entidade.setEndereco(endereco); }
 }
